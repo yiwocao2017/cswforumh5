@@ -1,0 +1,41 @@
+.post-comment-bottom {
+    padding: 0.16rem 0 0.16rem 0.28rem;
+    background-color: #fff;
+    height: 1rem;
+    width: 100%;
+    // position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+
+    .post-comment-input {
+        width: 5rem;
+        height: 100%;
+        line-height: 0.26rem;
+        float: left;
+        border-radius: 3px;
+        border: 1px solid #b4b4b4;
+        color: #666;
+        font-size: 0.26rem;
+        background-color: #f5f5f5;
+        padding: 0.2rem;
+        box-sizing: border-box;
+    }
+
+    .am-flexbox {
+        height: 100%;
+        .am-flexbox-item {
+            margin-left: 0;
+            text-align: center;
+            line-height: 0.66rem;
+
+            .post-comment-img {
+                width: 0.4rem;
+                vertical-align: middle;
+
+                &.post-comment-more {
+                    width: 0.44rem;
+                }
+            }
+        }
+    }
+}

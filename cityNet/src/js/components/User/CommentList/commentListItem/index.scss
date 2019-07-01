@@ -1,0 +1,24 @@
+.comment-list-item {
+    background-color: #fff;
+    padding: 0.3rem;
+
+    .c-list-img-wrap {
+        img {
+            width: 0.88rem;
+            height: 0.88rem;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+
+    .lh110 {
+        line-height: 1.1;
+    }
+    .post-content-filter{
+        float: right;
+        color: #d23e3e;
+    }
+    .break_all{
+        word-break: break-all;
+    }
+}

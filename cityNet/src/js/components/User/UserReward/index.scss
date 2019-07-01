@@ -1,0 +1,80 @@
+.reward-nav-wrap {
+    overflow: hidden;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+
+    .am-flexbox {
+        height: 100%;
+
+        .am-flexbox-item:first-child {
+            border-right: 1px solid #eee;
+        }
+    }
+
+    .reward-nav {
+        height: 0.88rem;
+        line-height: 0.88rem;
+        font-size: 0.351rem;
+        background-color: #fff;
+        text-align: center;
+
+        a {
+            img {
+                height: 0.5rem;
+                margin-right: 0.1rem;
+                position: relative;
+                top: 0.14rem;
+            }
+        }
+    }
+}
+
+.rewardLoader {
+    // top: 2.4rem !important;
+
+    .reward-list {
+        min-height: 0.9rem;
+        overflow: hidden;
+        padding: 0.1rem 0.2rem;
+        box-sizing: border-box;
+        display: -webkit-box;
+        /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+        display: -moz-box;
+        /* Firefox 17- */
+        display: -webkit-flex;
+        /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+        display: -moz-flex;
+        /* Firefox 18+ */
+        display: -ms-flexbox;
+        /* IE 10 */
+        display: flex;
+        /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        box-pack: center;
+        -moz-box-align: center;
+        -webkit-box-align: center;
+        box-align: center;
+        align-items: center;
+
+        div {
+            width: 33.3%;
+            font-size: 0.28rem;
+            color: #505050;
+            flex: 0 0 33%;
+
+            &.tr{
+                color: #a8a8a8;
+                font-size: 0.2574rem;
+            }
+            samp {
+                display: inline-block;
+                font-size: 0.3276rem;
+                padding-right: 0.1rem;
+                color: #d23e3e;
+            }
+        }
+    }
+}

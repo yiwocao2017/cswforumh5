@@ -1,0 +1,38 @@
+.follow-list {
+    a {
+        display: inline-block;
+
+        .follow-img {
+            box-sizing: border-box;
+            padding-bottom: 0.1rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 0.1rem;
+
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        .follow-txt {
+            line-height: 1rem;
+            font-size: 0.3rem;
+
+            img {
+                height: 0.4rem;
+                position: absolute;
+                top: 0.3rem;
+                right: 0.3rem;
+            }
+        }
+
+        &:last-of-type {
+            .follow-txt {
+                border: none !important;
+            }
+        }
+    }
+}

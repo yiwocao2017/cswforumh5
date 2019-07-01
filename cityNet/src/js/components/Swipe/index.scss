@@ -1,0 +1,38 @@
+.sliderPic {
+    .index-banner {
+        .slider-list {
+            height: 2.925rem !important;
+
+            .img-responsive {
+                height: 2.925rem;
+                width: 100%;
+            }
+
+            .swipe-item-bottom {
+                height: 0.7rem;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, .4);
+                line-height: 0.7rem;
+                font-size: 0.3276rem;
+                color: #fff;
+                padding-left: 0.35rem;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    &.slidePic1 {
+        .index-banner {
+            .slider-list {
+                height: 4rem !important;
+
+                .img-responsive {
+                    height: 4rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

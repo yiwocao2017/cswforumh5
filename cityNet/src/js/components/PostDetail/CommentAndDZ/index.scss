@@ -1,0 +1,40 @@
+.post-detail-bottom-tabs {
+    .am-tabs-bar {
+        color: #464646;
+
+        .am-tabs-ink-bar {
+            background-color: #d23e3e;
+            height: 2px;
+            width: 50%;
+
+            &.am-tabs-bar-left {
+                left: 0;
+            }
+
+            &.am-tabs-bar-right {
+                right: 0;
+            }
+        }
+
+        .am-tabs-tab {
+            height: 0.8rem;
+            line-height: 0.8rem;
+            color: #464646;
+            font-size: 0.3rem;
+
+            &.am-tabs-tab-active {
+                color: #d23e3e;
+            }
+        }
+    }
+
+    .post-tabpane {
+        display: none;
+        width: 100%;
+        font-size: 0.26rem;
+
+        &.post-tabpane-active {
+            display: block;
+        }
+    }
+}

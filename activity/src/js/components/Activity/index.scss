@@ -1,0 +1,97 @@
+.activity-detail-container {
+    background: #fff;
+
+    .activity-detail-img-container {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .activity-detail-info-container {
+        padding: 0.3rem;
+        .activity-flex-item{
+            margin-left: 0;
+        }
+        header {
+            h1 {
+                font-size: 0.3rem;
+                color: #d23e3e;
+                margin: 0;
+            }
+
+            .activity-detail-sub {
+                font-size: 0.24rem;
+                color: #474747;
+                padding-top: 0.3rem;
+
+                .activity-detail-sub-num {
+                    padding-left: 0.6rem;
+
+                    span {
+                        color: #ff8000;
+                    }
+                }
+            }
+        }
+
+        .activity-detail-info-title-wrap {
+            padding: 0.3rem 0 0 0.24rem;
+            position: relative;
+            font-size: 0.28rem;
+            color: #474747;
+
+            .activity-detail-info-title-spin {
+                position: absolute;
+                top: 0.32rem;
+                height: 0.9em;
+                left: 0;
+                width: 2px;
+                background: #000;
+            }
+        }
+
+        .activity-detail-item {
+            padding-left: 0.5rem;
+            margin-top: 0.3rem;
+            color: #474747;
+            font-size: 0.24rem;
+            background-position: 0 0.04rem;
+            background-repeat: no-repeat;
+            background-size: 0.25rem;
+            line-height: 1.4;
+
+            .activity-detail-item-title {
+                font-size: 0.26rem;
+                padding-right: 0.7rem;
+            }
+        }
+
+        .activity-calendar {
+            background-image: url("../../../images/calendar-icon.png");
+        }
+
+        .activity-time {
+            background-image: url("../../../images/time-icon.png");
+        }
+
+        .activity-money {
+            background-image: url("../../../images/money-icon.png");
+        }
+
+        .activity-addr {
+            background-image: url("../../../images/addr-icon.png");
+        }
+    }
+    .fix-b{
+        position: fixed;
+        bottom: 0;
+        padding: 0.25rem;
+        width: 100%;
+    }
+
+    .act-description{
+        padding: 0.2rem;
+    }
+}

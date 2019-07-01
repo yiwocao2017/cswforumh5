@@ -1,0 +1,180 @@
+.mine-detail {
+    .mine-detail-header {
+        width: 100%;
+        background-color: #fff;
+        height: 3.54rem;
+        margin-bottom: 0.1rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #dcdcdc;
+
+        .picDetail {
+            height: 2.44rem;
+            padding-left: 0.4rem;
+            position: relative;
+
+            .pic_detail {
+                padding-top: 0.284rem;
+
+                .picName {
+                    padding-left: 0.2rem;
+
+                    .username {
+                        font-size: 0.3276rem;
+                        margin-bottom: 0.117rem;
+                        color: #231815;
+                    }
+
+                    .userRank {
+                        font-size: 0.27rem;
+                        color: #b4b4b4;
+                    }
+                }
+
+                .pic {
+                    width: 1.872rem;
+                    height: 1.872rem;
+                    border-radius: 50%;
+                    font-size: 0;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                > div {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+
+            ._pic {
+                position: absolute;
+                right: 0.1rem;
+                top: 1.06rem;
+                height: 0.32rem;
+            }
+        }
+
+        .mine-detail-header-num {
+            border-top: 1px solid #e6e6e6;
+            font-size: 0;
+
+            ul {
+                li {
+                    float: left;
+                    width: 25%;
+
+                    p {
+                        text-align: center;
+                        margin-top: 0.16rem;
+                        color: #666;
+                        font-size: 0.2106rem;
+                    }
+
+                    div {
+                        text-align: center;
+                        margin-top: 0.2rem;
+                        font-size: 0.3276rem;
+                        color: #676767;
+                    }
+                }
+            }
+        }
+    }
+
+    .mine-detail-content {
+        width: 100%;
+        background-color: white;
+        padding-left: 0.2rem;
+        box-sizing: border-box;
+        padding-right: 0.2rem;
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+
+        li {
+            border-bottom: 1px solid #dcdcdc;
+            height: 0.935rem;
+            font-size: 0;
+            position: relative;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            a {
+                display: block;
+                height: 0.935rem;
+            }
+            .am-badge{
+                position: absolute;
+                top: 0.28rem;
+                right: 0.4rem;
+            }
+            .mine-detail-span {
+                font-size: 0.3276rem;
+                position: absolute;
+                left: 0.9rem;
+                height: 0.935rem;
+                line-height: 0.935rem;
+                color: #666;
+            }
+
+            div {
+                width: 1rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+
+                &.goods {
+                    background: url('../../../images/我的物品@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+                &.m-activity {
+                    background: url('../../../images/我的活动@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+                &.collect {
+                    background: url('../../../images/我的收藏@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+
+                &.draft {
+                    background: url('../../../images/草稿箱@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+
+                &.msg {
+                    background: url('../../../images/我的消息@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+
+                &.myblock {
+                    background: url('../../../images/wdbk.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+
+                &.aboutCity {
+                    background: url('../../../images/关于我们@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+
+                &.set {
+                    background: url('../../../images/设置@2x.png') no-repeat center;
+                    background-size: auto 0.34rem;
+                }
+            }
+
+            img {
+                height: 0.32rem;
+                position: absolute;
+                right: 0.1rem;
+                top: 0.3075rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.show-pics-carousel-wrap {
+    z-index: 9999;
+
+    .carousel-close-btn {
+        position: fixed;
+        z-index: 10000;
+        top: 0.2rem;
+        left: 0.2rem;
+        border-radius: 0.1rem;
+        font-size: 0.26rem;
+        padding: 0.12rem;
+        background: rgba(128, 128, 128, 0.4);
+        color: #fff;
+
+        img {
+            width: 0.24rem;
+        }
+    }
+
+    .show-pics-carousel {
+        width: 100%;
+        height: 100% !important;
+        z-index: 9999;
+        background: #000;
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        overflow-y: auto;
+
+        .slider-frame {
+            height: 100% !important;
+            overflow-y: auto !important;
+
+            .slider-list {
+                height: 100% !important;
+                overflow-y: auto !important;
+
+                .slider-slide {
+                    height: 100% !important;
+                    overflow-y: auto !important;
+                }
+
+                .show-pics-item {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -0.2rem;
+                    margin-left: -0.2rem;
+                    background-position: center;
+                    z-index: -1;
+                }
+            }
+        }
+
+        .banner-pic {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .slider-decorator-0 {
+            .am-carousel-wrap-dot {
+                > span {
+                    background: #fff;
+                }
+
+                &.am-carousel-wrap-dot-active {
+                    > span {
+                        background: #d23e3e;
+                    }
+                }
+            }
+        }
+
+        .carousel-item-img-wrap {
+            background: #000;
+        }
+    }
+
+    .show-pics-carousel-bottom {
+        position: fixed;
+        bottom: 0.3rem;
+        width: 100%;
+        box-sizing: border-box;
+        left: 0;
+        z-index: 9999;
+
+        .carousel-bottom-btn {
+            height: 0.5rem;
+            line-height: 0.5rem;
+            border: none;
+            color: #fff;
+            background: rgba(128,128,128,.4);
+
+            &.carousel-bottom-left {
+                float: left;
+                margin-left: 0.2rem;
+            }
+
+            &.carousel-bottom-right {
+                float: right;
+                margin-right: 0.2rem;
+            }
+        }
+    }
+}

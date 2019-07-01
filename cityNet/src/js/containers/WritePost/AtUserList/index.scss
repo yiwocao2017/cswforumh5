@@ -1,0 +1,31 @@
+.at-user-search-wrap{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background: #f0f0f0;
+
+    .am-search-cancel{
+        color: #d23e3e;
+    }
+    .follow-img {
+        box-sizing: border-box;
+        padding-bottom: 0.1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 0.1rem;
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .follow-txt {
+        line-height: 1rem;
+        font-size: 0.3rem;
+    }
+}

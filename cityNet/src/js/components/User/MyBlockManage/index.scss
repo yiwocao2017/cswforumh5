@@ -1,0 +1,89 @@
+.myBlockManage {
+    .themeHeader {
+        background-color: white;
+        padding: 0.3rem;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 0;
+        position: relative;
+        margin-bottom: 0.2rem;
+
+        > .am-flexbox {
+            height: 100%;
+
+            .themeHeaderFlex2 {
+                -webkit-box-flex: 2;
+                -webkit-flex: 2;
+                -ms-flex: 2;
+                flex: 2;
+            }
+
+            .themePic1 {
+                width: 1.17rem;
+                height: 1.17rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .themeTitle {
+                font-size: 0.3276rem;
+                color: #454545;
+                padding: 0 0 0.26rem;
+            }
+        }
+    }
+
+    .am-tabs {
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        flex: 1;
+
+        .am-tabs-bar {
+            .am-tabs-ink-bar {
+                height: 2px;
+                background-color: #d23e3e;
+            }
+
+            .am-tabs-tab {
+                font-size: 0.3042rem;
+                height: 0.936rem;
+                line-height: 0.936rem;
+            }
+
+            .am-tabs-tab-active {
+                color: #d23e3e;
+            }
+        }
+
+        .am-tabs-content {
+            flex: 1;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+            overflow-y: scroll !important;
+            overflow-x: hidden !important;
+            position: relative;
+            -webkit-overflow-scrolling: touch;
+
+            .am-tabs-tabpane {
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                bottom: 0;
+            }
+        }
+    }
+}

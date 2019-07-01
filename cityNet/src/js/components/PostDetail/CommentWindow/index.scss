@@ -1,0 +1,127 @@
+.post-comment-wrap {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #fff;
+
+    header {
+        background-color: #f8f8f8;
+        height: 0.88rem;
+        line-height: 0.88rem;
+        font-size: 0.32rem;
+
+        .pop-over-write-comment-header-cont {
+            text-align: center;
+
+            .pop-over-write-comment-btn {
+                border: none;
+                font-size: 0.28rem;
+                height: 0.88rem;
+                line-height: 0.88rem;
+                background-color: transparent;
+            }
+        }
+    }
+    .write-post-form {
+        .pop-over-write-comment-content {
+            &:after {
+                border-bottom: none;
+            }
+
+            &.write-post-no-bottom {
+                .am-list-body {
+                    border-bottom: 0 !important;
+
+                    &:after {
+                        border-bottom: 0 !important;
+                    }
+                }
+            }
+
+            &.write-post-list {
+                .am-list-item {
+                    font-size: 0.3042rem;
+                    min-height: 1.4em;
+                    height: inherit !important;
+                    padding: 0.14rem 0.3rem;
+
+                    .am-input-control {
+                        font-size: 0.3042rem;
+
+                        input {
+                            font-size: 0.3042rem;
+                        }
+                    }
+
+                    &.am-input-item:after {
+                        border-bottom: none;
+                    }
+                }
+
+                .comment-error-tip {
+                    right: 10px;
+                    left: inherit !important;
+                }
+            }
+
+            .am-textarea-item {
+                min-height: 1em !important;
+                font-size: 0.3042rem;
+                padding: 0.2rem 0.3rem !important;
+
+                .am-textarea-control {
+                    padding-top: 0;
+                    padding-bottom: 0;
+
+                    textarea {
+                        font-size: 0.3042rem;
+                        line-height: 1.4em;
+                    }
+                }
+
+                .am-textarea-count {
+                    font-size: 0.3042rem;
+                }
+
+                &:after {
+                    border-bottom: none !important;
+                }
+            }
+
+            .comment-error-tip {
+                position: absolute;
+                color: #d23e3e;
+                font-size: 0.2808rem;
+                left: 10px;
+                bottom: 0.18rem;
+            }
+
+            .comment-flex {
+                background-color: #f9f9f9;
+
+                .comment-flex-item {
+                    height: 0.8rem;
+
+                    .dropzone {
+                        width: 100% !important;
+                        height: 0.8rem !important;
+                    }
+
+                    .at-icon {
+                        background: url('../../../../images/atIcon.png') no-repeat center;
+                        background-size: 0.48rem;
+                        height: 100%;
+                    }
+
+                    .emoji-icon {
+                        background: url('../../../../images/emojiIcon.png') no-repeat center;
+                        background-size: 0.48rem;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

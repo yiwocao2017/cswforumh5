@@ -1,0 +1,46 @@
+.im-list-content {
+    height: 170px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+
+    &.am-grid{
+        .am-flexbox{
+            background: transparent !important;
+
+            .am-flexbox-item.am-grid-item {
+                height: 40px;
+            }
+        }
+    }
+    .slider{
+        .slider-decorator-0{
+            bottom: -8px !important;
+            .am-carousel-wrap-dot{
+                >span{
+                    border-radius: 0;
+                    height: 3px;
+                }
+                &.am-carousel-wrap-dot-active{
+                    > span{
+                        background: #d23e3e;
+                    }
+                }
+            }
+        }
+    }
+    .am-grid-carousel-page{
+        .face {
+            float: left;
+            margin: 4px 0;
+            width: 100%;
+            height: 32px;
+            background-repeat: no-repeat;
+            -webkit-background-size: 32px auto;
+            background-size: 32px auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+        }
+    }
+}

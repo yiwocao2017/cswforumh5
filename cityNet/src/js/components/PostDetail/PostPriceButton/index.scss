@@ -1,0 +1,24 @@
+.price-btn-wrap{
+    height: 1.17rem;
+    background: #fff;
+    padding: 0 0.3rem;
+    .am-flexbox{
+        height: 100%;
+    }
+    .jlbz-icon{
+        width: 0.375rem;
+        height: 0.375rem;
+        vertical-align: middle;
+    }
+    .jlbz-span{
+        color: #999;
+        font-size: 0.3276rem;
+        padding-left: 0.234rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .price-icon{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+}

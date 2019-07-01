@@ -1,0 +1,76 @@
+.user-mine-block {
+    .moudleList {
+        background-color: white;
+
+        ul {
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+        }
+
+        li {
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            width: 100%;
+            height: 1.7rem;
+            font-size: 0;
+            border-bottom: 1px solid #e6e6e6;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .moudleImg {
+            width: 1.3rem;
+            height: 1.3rem;
+        }
+
+        .moudleImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .moudle-ion {
+            width: 2rem;
+            height: 0.3rem;
+            position: absolute;
+            left: 1.5rem;
+            bottom: 0.3rem;
+        }
+
+        .moudle-ion div {
+            float: left;
+            width: 0.84rem;
+        }
+
+        .moudle-ion div img {
+            height: 0.32rem;
+        }
+
+        .moudle-ion div span {
+            font-size: 0.26rem;
+            margin-left: 0.02rem;
+        }
+
+        p {
+            font-size: 0.3276rem;
+            color: #333333;
+            position: absolute;
+            top: 0.36rem;
+            left: 1.5rem;
+        }
+
+        .moudle-enter {
+            font-size: 0.26rem;
+            position: absolute;
+            color: #333333;
+            width: 0.702rem;
+            height: 0.421rem;
+            line-height: 0.421rem;
+            text-align: center;
+            border: 1px solid #d23e3e;
+            color: #d23e3e;
+            border-radius: 3px;
+            right: 0;
+            top: 0.5rem;
+        }
+    }
+}

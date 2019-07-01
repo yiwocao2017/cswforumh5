@@ -1,0 +1,184 @@
+.chat-room-wrap {
+    .tloader-symbol {
+        display: none;
+    }
+
+    .chatView {
+        padding-bottom: 0.2rem;
+        .easemobWidgetWrapper-mobile {
+            .easemobWidget-msg-container {
+                padding: 0.16rem 0.2rem;
+                font-size: 0.34rem;
+                min-width: 0.4rem;
+                vertical-align: middle;
+                text-align: left;
+                display: inline-block;
+                border-radius: 6px;
+                max-width: 3.8rem;
+                border: 1px solid #e5e5e5;
+            }
+
+            .easemobWidget-msg-wrapper {
+                position: relative;
+
+                img {
+                    width: 0.9rem;
+                    vertical-align: middle;
+                    border-radius: 50%;
+                }
+            }
+
+            .mw30p {
+                width: 0.9rem;
+                height: 0.9rem;
+            }
+
+            .easemobWidget-right {
+                float: right;
+                display: block;
+                text-decoration: none;
+                width: 98%;
+                text-align: left;
+                margin-top: 0.3rem;
+
+                .easemobWidget-msg-wrapper {
+                    float: right;
+                    margin-right: 0.24rem;
+
+                    .easemobWidget-corner {
+                        position: absolute;
+                        top: 0.08rem;
+                        right: 0.72rem;
+                        width: 0.6rem;
+                        height: 0.6rem;
+                        color: #e3ecfc;
+                        text-shadow: 1px 0 0 #c3cbd9;
+
+                        &:after {
+                            content: 'J';
+                        }
+                    }
+
+                    img {
+                        float: right;
+                    }
+
+                    .easemobWidget-msg-container {
+                        background-color: #e3ecfc;
+                        float: right;
+                        border: 1px solid #c3cbd9;
+                        margin-right: 0.16rem;
+                    }
+                }
+            }
+
+            .easemobWidget-left {
+                float: left;
+                display: block;
+                text-decoration: none;
+                width: 98%;
+                text-align: left;
+                margin-top: 0.3rem;
+
+                .easemobWidget-msg-wrapper {
+                    float: left;
+                    margin-left: 0.24rem;
+
+                    .easemobWidget-corner {
+                        position: absolute;
+                        top: 0.1rem;
+                        left: 0.72rem;
+                        width: 0.6rem;
+                        height: 0.6rem;
+                        color: #fff;
+                        text-shadow: -1px 0 0 #e5e5e5;
+
+                        &:after {
+                            content: 'K';
+                        }
+                    }
+
+                    .easemobWidget-msg-container {
+                        background-color: #fff;
+                        margin-left: 0.16rem;
+                    }
+                }
+            }
+
+            .easemobWidget-corner:after,
+            .easemobWidget-face:after,
+            .easemobWidget-file:after,
+            .easemobWidget-left .easemobWidget-msg-voice,
+            .easemobWidget-msg-status i,
+            .easemobWidget-msgcount.mutiCount:after,
+            .easemobWidget-msgcount:after,
+            .easemobWidget-note:after,
+            .easemobWidget-notem:after,
+            .easemobWidget-pop-bar i:after,
+            .easemobWidget-satisfaction-dialog li,
+            .easemobWidget-success-prompt i,
+            .easemobWidget-unimage,
+            .easemobWidget-word-close:after,
+            .easemobWidgetHeader-audio:after,
+            .easemobWidgetHeader-keyboard:after,
+            .easemobWidgetHeader-min:after,
+            .easemobWidgetHeader-silence:after {
+                font-family: easemobim!important;
+                font-size: 0.6rem;
+                font-style: normal;
+                text-align: center;
+                line-height: 0.6rem;
+                -webkit-text-stroke-width: 0.2px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+    }
+
+    .chat-room-bottom {
+        bottom: 0;
+        width: 100%;
+        min-height: 1rem;
+        padding: 0.1rem 0.2rem;
+        background: #fff;
+        box-sizing: border-box;
+        border-top: 1px solid #ddd;
+
+        .am-flexbox {
+            height: 100%;
+
+            .send-btn {
+                font-size: 0.32rem;
+                height: 0.8rem;
+                line-height: 0.8rem;
+                border-top-left-radius: 0.1rem;
+                border-top-right-radius: 0.1rem;
+                border-bottom-left-radius: 0.1rem;
+                border-bottom-right-radius: 0.1rem;
+                -webkit-background-clip: padding-box;
+                padding: 0 0.4rem;
+                margin-left: 0.2rem;
+                background: #d23e3e;
+                color: #fff;
+                border: 1px solid #d23e3e;
+                display: inline-block;
+
+                &[disabled] {
+                    background: #ecb2b3;
+                    border-color: transparent;
+                }
+            }
+
+            .am-list-item {
+                padding-right: 0.3rem;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .emj-icon {
+        height: 0.6rem;
+        margin-left: 0.2rem;
+    }
+}

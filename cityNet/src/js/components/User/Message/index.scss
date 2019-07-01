@@ -1,0 +1,133 @@
+.myMsg {
+    width: 100%;
+    background-color: #fff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    box-sizing: border-box;
+
+    li {
+        border-bottom: 1px solid #dcdcdc;
+        height: 1.1rem;
+        font-size: 0;
+        position: relative;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        a {
+            display: block;
+            height: 100%;
+        }
+
+        span {
+            font-size: 0.3276rem;
+            position: absolute;
+            left: 1.3rem;
+            height: 1.1rem;
+            color: #666;
+            line-height: 1.1rem;
+        }
+
+        img {
+            height: 0.32rem;
+            position: absolute;
+            right: 0.1rem;
+            top: 0.3075rem;
+        }
+
+        div {
+            width: 1.2rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+
+            &.best {
+                background: url('../../../../images/消息列表－点赞@2x.png') no-repeat center;
+                background-size: auto 0.88rem;
+            }
+
+            &.mention {
+                background: url('../../../../images/消息列表－提到我的@2x.png') no-repeat center;
+                background-size: auto 0.88rem;
+            }
+
+            &.comment {
+                background: url('../../../../images/消息列表－评论@2x.png') no-repeat center;
+                background-size: auto 0.88rem;
+            }
+
+            &.systemMsg {
+                background: url('../../../../images/消息列表－系统消息@2x.png') no-repeat center;
+                background-size: auto 0.88rem;
+            }
+        }
+    }
+}
+
+.contacts {
+    width: 100%;
+    background-color: #fff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+
+    li {
+        border-bottom: 1px solid #dcdcdc;
+        height: 1.1rem;
+        font-size: 0;
+        position: relative;
+
+        &:last-child {
+            border-bottom: none;
+        }
+        .am-flexbox{
+            padding-left: 0.14rem;
+        }
+        .am-badge {
+            left: 0.7rem;
+            top: 0.1rem;
+            position: absolute;
+        }
+
+        .contract-item-cont {
+            font-size: 0.3276rem;
+            left: 1.3rem;
+            height: 1.1rem;
+            padding-left: 0.28rem;
+            color: #666;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            line-height: 1.1rem;
+
+            .face{
+                vertical-align: baseline;
+            }
+        }
+
+        img {
+            height: 0.88rem;
+            width: 0.88rem;
+            border-radius: 50%;
+        }
+    }
+
+    p {
+        border-bottom: 0.01rem solid #e6e6e6;
+        height: 0.8rem;
+        line-height: 0.8rem;
+        position: relative;
+        font-size: 0.2808rem;
+        padding-left: 0.1rem;
+
+        span {
+            color: #aaa;
+        }
+    }
+}
+.im-list-content.im-mes-list-content{
+    height: initial;
+}

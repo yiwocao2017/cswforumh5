@@ -1,0 +1,13 @@
+.nav-root {
+    cursor: pointer;
+    .am-badge {
+        position: absolute;
+        top: 0.1rem;
+        right: 0.2rem;
+    }
+    &.active{
+        .nav-link-name{
+            color: #d23e3e;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.city-list-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
+    z-index: 2000;
+
+    .city-list-header {
+        height: 1rem;
+        background: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        padding-left: 0.3rem;
+        padding-right: 0.15rem;
+
+        .am-flexbox {
+            height: 100%;
+        }
+
+        .city-list-flex-left {
+            border-bottom: 1px solid lightgrey;
+            padding: 0.04rem 0;
+
+            .city-search-icon {
+                width: 0.6rem;
+            }
+
+            .search-input {
+                width: 100%;
+                padding-right: 0.2rem;
+                box-sizing: border-box;
+            }
+        }
+
+        .city-list-cancel-btn {
+            border: 1px solid lightgrey;
+            line-height: 0.6rem;
+            width: 1.3rem;
+            text-align: center;
+            background-color: white;
+            color: #464646;
+            border-radius: 4px;
+            padding: 0;
+        }
+    }
+
+    .cityChoseListLoader {
+        bottom: 0;
+        position: absolute !important;
+        top: 1.01rem;
+        overflow: auto;
+        width: 100%;
+        .tloader-symbol{
+            visibility: hidden;
+        }
+
+        .am-list{
+            .am-list-header{
+                padding: .18rem .3rem .12rem;
+                background: #f7f7f7;
+            }
+        }
+    }
+}

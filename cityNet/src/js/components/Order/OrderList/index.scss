@@ -1,0 +1,67 @@
+.order-list-container {
+    .orders-item {
+        background: #fff;
+        border-bottom: 1px solid #eee;
+    }
+
+    .order-act-item-img-wrap {
+        position: relative;
+        overflow: hidden;
+        width: 1.8rem;
+        min-width: 1.8rem;
+        height: 1.4rem;
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .order-cont-flex {
+        line-height: 1.2;
+        min-height: 1.4rem;
+        padding-left: 0.1rem;
+
+        .order-act-status {
+            font-size: 0.28rem;
+            text-align: right;
+            color: #d23e3e;
+            min-width: 4em;
+        }
+
+        .order-act-title {
+            font-size: 0.28rem;
+            color: #323232;
+        }
+
+        .order-act-date {
+            font-size: 0.24rem;
+            color: #999;
+            width: 100%;
+
+            .order-act-amount {
+                color: #d23e3e;
+                font-size: 0.28rem;
+                float: right;
+            }
+        }
+    }
+
+    .order-item-foot {
+        text-align: center;
+        margin-top: 0.2rem;
+        height: 0.64rem;
+        line-height: 0.64rem;
+
+        .order-item-foot-item {
+            width: 1.48rem;
+            height: 0.64rem;
+            border: 0.01rem solid #d23e3e;
+            float: right;
+            margin-left: 0.18rem;
+            border-radius: 0.08rem;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.pay-wrap {
+    .circle-icon {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        display: inline-block;
+        border: 1px solid #d23e3e;
+
+        &.active {
+            background: url('../../../images/chosed.png') no-repeat center;
+            background-size: cover;
+        }
+    }
+
+    .am-list-item .am-list-line .am-list-extra {
+        line-height: initial !important;
+    }
+
+    .bottom-button {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+
+        .am-button-primary {
+            background-color: #d23e3e;
+            border: none;
+            border-radius: 0;
+
+            &.am-button-active {
+                background-color: #ad3636;
+            }
+        }
+    }
+}

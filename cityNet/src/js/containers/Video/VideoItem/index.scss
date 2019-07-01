@@ -1,0 +1,29 @@
+.user-commodity.tloader {
+    .tloader-body {
+        background-color: #f0f0f0;
+
+        .commodity-user-list {
+            a {
+                background-color: #fff;
+
+                .over-hide {
+                    padding: 0.2rem 0.2rem 0;
+                }
+
+                .commodity-title {
+                    font-size: 0.3042rem;
+                }
+
+                .commodity-cont {
+                    color: #999;
+                    font-size: 0.2574rem;
+                    padding: 0.02rem 0.2rem 0.2rem;
+
+                    .commodity-price {
+                        color: #d23e3e;
+                    }
+                }
+            }
+        }
+    }
+}

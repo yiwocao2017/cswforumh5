@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'easemobim';
+    src: url("iconfont.eot?v=<%= v %>") ;
+    src: url('//at.alicdn.com/t/font_1465807654_8708029.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url("iconfont.svg?v=<%= v %>")  format('svg'),
+    url("iconfont.woff?v=<%= v %>")  format('woff'),
+    url("iconfont.ttf?v=<%= v %>")  format('truetype');
+    src: url("iconfont.eot?v=<%= v %>") \9;
+    font-weight: normal;
+    font-style: normal;
+}

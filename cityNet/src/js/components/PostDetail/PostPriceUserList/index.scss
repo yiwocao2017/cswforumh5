@@ -1,0 +1,30 @@
+.price-userlist-wrap {
+    background: #fff;
+    padding: 0 0.72rem 0.2rem;
+    a{
+        font-size: 0;
+    }
+    .price-userlist-title {
+        color: #999;
+        font-size: 0.3276rem;
+        padding: 0.234rem 0;
+        text-align: center;
+
+        .userlist-title-num {
+            color: #4675f9;
+        }
+    }
+
+    .price-userlist-img {
+        width: 0.56rem;
+        height: 0.56rem;
+        margin: 0.054rem;
+    }
+
+    .price-userlist-more {
+        font-size: 0.3276rem;
+        color: #999;
+        text-align: center;
+        padding: 0.2rem 0 0.1rem;
+    }
+}

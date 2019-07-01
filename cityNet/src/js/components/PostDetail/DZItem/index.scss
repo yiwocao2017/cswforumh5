@@ -1,0 +1,23 @@
+.post-dz-item {
+    padding: 15px 0.3rem;
+    color: #464646;
+    background-color: #fff;
+    display: flex;
+    display: -webkit-box;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 1.4;
+
+    .post-dz-item-title {
+        color: #7d0000;
+        font-size: 0.28rem;
+        flex: 1;
+        -webkit-box-flex: 1;
+    }
+    .post-dz-item-img {
+        width: 0.6rem;
+        height: 0.6rem;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-right: 0.1rem;
+    }
+}

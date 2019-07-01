@@ -1,0 +1,66 @@
+.edit-user-info-wrap{
+    .am-list{
+        .am-list-body{
+            >.am-list-item{
+                >.am-list-line{
+                    >.am-list-content{
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        .am-list-item.am-input-item{
+                            padding-left: 0;
+                            .am-input-label.am-input-label-5{
+                                width: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .am-list-item.am-input-item:after{
+        border-bottom: none;
+    }
+    .am-textarea-label.am-textarea-label-5{
+        width: 1rem;
+    }
+    .pl0{
+        padding-left: 0 !important;
+    }
+    .right-icon{
+        position: absolute;
+        top: 50%;
+        right: 0.3rem;
+        margin-top: -0.15rem;
+        display:block;
+        width:.3rem;
+        height:.3rem;
+        margin-left:.16rem;
+        background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='26' viewBox='0 0 16 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 0L0 2l11.5 11L0 24l2 2 14-13z' fill='%23C7C7CC' fill-rule='evenodd'/%3E%3C/svg%3E");
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-position:50% 50%;
+    }
+    .edit-user-photo-upload{
+        img{
+            position: absolute;
+            right: 0.44rem;
+            top: 0.18rem;
+            width: 1.54rem;
+            height: 1.54rem;
+            border-radius: 8px;
+        }
+    }
+    .comment-error-tip {
+        position: absolute;
+        color: #d23e3e;
+        font-size: 0.22rem;
+        bottom: 0.26rem;
+        right: 10px;
+        &.comment-error-tip-btn{
+            right: 2.4rem;
+        }
+        &.more-right-error{
+            right: 2rem;
+        }
+    }
+}

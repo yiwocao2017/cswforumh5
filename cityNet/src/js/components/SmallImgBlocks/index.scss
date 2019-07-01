@@ -1,0 +1,30 @@
+.headerLine-nav-footer {
+    border-top:1px solid #dedede;
+    margin-bottom:0.3rem;
+    padding:0 0.3rem;
+    .small-img-block {
+        width: 1.63rem;
+        height: 1.63rem;
+        font-size: 0.257rem;
+        text-align: center;
+        margin-top: 0.08rem;
+
+
+        div {
+            width: 100%;
+            height: 55%;
+            margin-top: 0.3rem;
+        }
+
+        img {
+            height: 0.937rem;
+            width:0.937rem
+        }
+
+        p {
+            width: 100%;
+            margin-top: 0.12rem;
+            font-size: 0.257rem;
+        }
+    }
+}

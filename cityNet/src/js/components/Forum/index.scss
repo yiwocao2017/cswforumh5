@@ -1,0 +1,113 @@
+.classify {
+    // bottom: 1rem;
+    width: 100%;
+    // top: 0.88rem;
+    // position: absolute;
+
+    .classify-url {
+        top: 0;
+        position: absolute;
+        bottom: 0;
+        overflow: auto;
+        width: 28%;
+        border-right: 1px solid #e6e6e6;
+        overflow: auto;
+        display: inline-block;
+
+        li {
+            font-size: 0.281rem;
+            color: #333;
+            text-align: center;
+            height: 1.1232rem;
+            line-height: 1.1232rem;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .active {
+            background-color: #fff;
+            color: #d23e3e;
+        }
+    }
+
+    .classify-list {
+        position: absolute;
+        top: 0;
+        left: 28%;
+        width: 72%;
+        bottom: 0;
+        overflow: auto;
+        background-color: white;
+
+        .moudleList ul {
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+        }
+
+        .moudleList li {
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            width: 100%;
+            height: 1.872rem;
+            font-size: 0;
+            border-bottom: 1px solid #e6e6e6;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .moudleList .moudleImg {
+            width: 1.17rem;
+            height: 1.17rem;
+            padding-top: 0.15rem;
+        }
+
+        .moudleList .moudleImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .moudle-ion {
+            width: 2rem;
+            height: 0.3rem;
+            position: absolute;
+            left: 1.4rem;
+            bottom: 0.41rem;
+        }
+
+        .moudle-ion div {
+            float: left;
+            width: 0.84rem;
+        }
+
+        .moudle-ion div img {
+            height: 0.28rem;
+        }
+
+        .moudle-ion div span {
+            font-size: 0.1755rem;
+            margin-left: 0.02rem;
+        }
+
+        .moudleList p {
+            font-size: 0.3276rem;
+            color: #333333;
+            position: absolute;
+            top: 0.41rem;
+            left: 1.4rem;
+        }
+
+        .moudleList .moudle-enter {
+            font-size: 0.234rem;
+            position: absolute;
+            color: #333333;
+            width: 0.702rem;
+            height: 0.421rem;
+            line-height: 0.421rem;
+            text-align: center;
+            border: 1px solid #d23e3e;
+            color: #d23e3e;
+            border-radius: 3px;
+            right: 0;
+            top: 0.5rem;
+        }
+    }
+}
